@@ -1,0 +1,9 @@
+/* Styles pour la page stylisée */
+ .stylise {
+    background-color: #369;
+    color: #400cdc;
+}
+
+.stylise h1 {
+    color: #333;
+}
