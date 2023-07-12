@@ -1,0 +1,21 @@
+/* Style par défaut pour les sections */
+.section {
+    background-color: #88c1d0;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Media query pour les écrans entre 768px et 1599px */
+@media (min-width: 768px) and (max-width: 1599px) {
+    .section {
+        width: calc(50% - 20px);
+        float: left;
+    }
+}
+
+/* Media query pour les écrans supérieurs à 1600px */
+@media (min-width: 1600px) {
+    .section {
+        width: calc(25% - 20px);
+    }
+}

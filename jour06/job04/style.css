@@ -1,0 +1,56 @@
+/* Style par défaut pour les sections */
+.section {
+    background-color: #88c1d0;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Style pour le bouton hamburger */
+#hamburger-button {
+    display: none;
+}
+
+/* Style pour les liens de navigation */
+#nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Media query pour les écrans inférieurs ou égaux à 767px */
+@media (max-width: 767px) {
+    /* Affichage du bouton hamburger */
+    #hamburger-button {
+        display: block;
+    }
+
+    /* Masquage des liens de navigation par défaut */
+    #nav-links {
+        display: none;
+    }
+
+    /* Affichage des liens de navigation lorsque la classe "visible" est ajoutée */
+    #nav-links.visible {
+        display: block;
+    }
+}
+
+/* Media query pour les écrans entre 768px et 1599px */
+@media (min-width: 768px) and (max-width: 1599px) {
+    .section {
+        width: calc(50% - 20px);
+        float: left;
+    }
+}
+
+/* Media query pour les écrans supérieurs à 1600px */
+@media (min-width: 1600px) {
+    .section {
+        width: calc(25% - 20px);
+    }
+}

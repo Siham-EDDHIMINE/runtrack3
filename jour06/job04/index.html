@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button id="hamburger-button">☰</button>
+        <nav id="nav-links">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Présentation</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section">Section 1</section>
+    <section class="section">Section 2</section>
+    <section class="section">Section 3</section>
+    <section class="section">Section 4</section>
+
+    <script>
+        // Sélection du bouton hamburger et des liens de navigation
+        var hamburgerButton = document.getElementById('hamburger-button');
+        var navLinks = document.getElementById('nav-links');
+
+        // Fonction pour afficher/masquer les liens de navigation
+        function toggleNavLinks() {
+            navLinks.classList.toggle('visible');
+        }
+
+        // Ajout d'un écouteur d'événement pour afficher/masquer les liens de navigation lorsque l'utilisateur clique sur le bouton hamburger
+        hamburgerButton.addEventListener('click', toggleNavLinks);
+    </script>
+</body>
+</html>

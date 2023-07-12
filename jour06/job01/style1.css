@@ -1,0 +1,15 @@
+/* Couleur de fond par défaut */
+body {
+    background-color: #88c1d0;
+}
+
+/* Style pour les titres */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 16px;
+}

@@ -1,0 +1,15 @@
+/* Couleur de fond pour les écrans inférieurs à 1280px */
+body {
+    background-color: #ffffff;
+}
+
+/* Style pour les titres */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 16px;
+}
